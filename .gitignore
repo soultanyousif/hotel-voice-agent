@@ -1,0 +1,21 @@
+# Environment / secrets
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated at runtime -- not part of the repo
+hotel.db
+tts_out/
+
+# Model/HF caches, if ever created inside the project folder
+.cache/
+
+# Editor / OS junk
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
