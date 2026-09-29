@@ -8,10 +8,10 @@ from groq import BadRequestError, Groq
 
 import hotel_db as db
 
-load_dotenv()  # reads .env locally; a no-op if it's absent (e.g. on HF Spaces,
-                # where GROQ_API_KEY comes from a Space secret instead)
+load_dotenv(override=True)
+                
 
-MODEL = "openai/gpt-oss-20b"
+MODEL = "qwen/qwen3.8-27b"
 
 if not os.environ.get("GROQ_API_KEY"):
     raise RuntimeError(

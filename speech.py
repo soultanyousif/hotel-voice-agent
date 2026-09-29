@@ -6,7 +6,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from groq import Groq
 
-load_dotenv()
+load_dotenv(override=True)
 
 if not os.environ.get("GROQ_API_KEY"):
     raise RuntimeError(
@@ -20,7 +20,7 @@ ASR_MODEL = "whisper-large-v3"
 
 TTS_MODEL = "canopylabs/orpheus-arabic-saudi"
 TTS_VOICE = "sultan"  # other male options: "fahad", "abdullah"
-TTS_MAX_CHARS = 190  # Groq's hard limit is 200; keep a small safety margin
+TTS_MAX_CHARS = 190  # < 200 
 
 OUTPUT_DIR = Path(__file__).parent / "tts_out"
 OUTPUT_DIR.mkdir(exist_ok=True)

@@ -10,6 +10,7 @@ __pycache__/
 # Generated at runtime -- not part of the repo
 hotel.db
 tts_out/
+_audio_out/
 
 # Model/HF caches, if ever created inside the project folder
 .cache/
