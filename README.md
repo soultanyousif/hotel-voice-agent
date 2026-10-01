@@ -7,7 +7,7 @@ database, then replies back out loud in a Saudi voice while a call-style
 screen shows whether it's listening, thinking, or speaking.
 
 Built as a demo/portfolio project, inspired by [Sarj AI](https://www.linkedin.com/company/sarj_ai/posts/)
-and [Sawt](https://www.linkedin.com/company/usesawt/posts/).
+, [Sawt](https://www.linkedin.com/company/usesawt/posts/) , [HAMS.AI](https://www.linkedin.com/company/hamsaisa/posts/?feedView=all) and [Nabrah.AI](https://www.linkedin.com/company/nabrahai/posts/?feedView=all).
 
 ## How it works
 guest voice --> ASR (Groq, whisper-large-v3)
